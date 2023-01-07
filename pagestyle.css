@@ -110,7 +110,7 @@ a{
     font-family: maplefontL;
 }
 .item{
-    display:flex;
+
     width:auto;
     height:auto;
 }
@@ -122,6 +122,19 @@ a{
     margin-left:auto;
     margin-top:30px;
     margin-bottom:30px;
+}
+.mainwrite{
+    width:80%;
+    color:rgb(151, 142, 142);
+    font-family: maplefontL;
+    font-size: 25px;
+    margin-right:auto;
+    margin-left:auto;
+    margin-top:100px;
+    margin-bottom:200px;
+    text-align:center;
+    border:4px groove gainsboro;
+    padding:20px;
 }
 .article{
     width:80%;
@@ -148,6 +161,11 @@ a{
 .article img{
     margin:0 auto;
     width:90%;
+}
+.article a{
+    color:rgb(151, 142, 142);
+    text-decoration: underline;
+    display:inline;
 }
 .item:nth-child(1){
     grid-column:1/3;
